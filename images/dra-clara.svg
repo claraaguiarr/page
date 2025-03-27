@@ -1,0 +1,15 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="photoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d4b483;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#photoGradient)" />
+  <text x="200" y="250" font-family="Arial" font-size="16" fill="#2c1810" text-anchor="middle">
+    Imagem da Dra. Clara Aguiar
+  </text>
+  <text x="200" y="280" font-family="Arial" font-size="12" fill="#8b7355" text-anchor="middle">
+    (Substitua este SVG pela foto real)
+  </text>
+</svg>

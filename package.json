@@ -1,0 +1,12 @@
+{
+  "name": "clara-aguiar-site",
+  "version": "1.0.0",
+  "description": "Site da Dra. Clara Aguiar - Harmonização Facial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
