@@ -18,6 +18,24 @@
 
       gtag('config', 'AW-17067588580');
     </script>
+
+
+     <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17067588580/lRf3CK7LiMoaEOT3uso_',
+          'value': 1.0,
+          'currency': 'BRL',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
 </head>
 <body>
     <header class="header">
@@ -34,7 +52,7 @@
             <div class="hero-content">
                 <h2>Harmonização Facial</h2>
                 <p>Realce sua beleza natural com tratamentos personalizados</p>
-                <a href="https://wa.me/558899879997?text=Ol%C3%A1!%20Queria%20marcar%20uma%20consulta%20para%20Harmoniza%C3%A7%C3%A3o%20facial%20com%20a%20Dra.%20Clara%20Aguiar" class="btn-primary">Agendamento</a>
+                <a href="https://wa.me/558899879997?text=Ol%C3%A1!%20Queria%20marcar%20uma%20consulta%20para%20Harmoniza%C3%A7%C3%A3o%20facial%20com%20a%20Dra.%20Clara%20Aguiar" onclick="return gtag_report_conversion('https://wa.me/558899879997?text=Ol%C3%A1!%20Queria%20marcar%20uma%20consulta%20para%20Harmoniza%C3%A7%C3%A3o%20facial%20com%20a%20Dra.%20Clara%20Aguiar');" class="btn-primary">Agendamento</a>
             </div>
         </section>
 
@@ -173,7 +191,7 @@
 
         <section id="contato" class="contact">
             <div class="contact-buttons">
-                <a href="https://wa.me/5588999879997" class="btn-whatsapp">WhatsApp</a>
+                <a href="https://wa.me/5588999879997" onclick="return gtag_report_conversion('https://wa.me/5588999879997');" class="btn-whatsapp">WhatsApp</a>
                 <a href="https://maps.google.com" class="btn-location">Localização</a>
             </div>
             <div class="social-media">
